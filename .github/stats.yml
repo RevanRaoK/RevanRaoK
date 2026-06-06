@@ -1,0 +1,36 @@
+name: Update Stats Cards
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate stats card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: "username=RevanRaoK&show_icons=true&theme=gruvbox&hide_border=true&border_radius=12&include_all_commits=true&count_private=true&icon_color=C0602A&title_color=6B7C3A&text_color=d4be98&bg_color=1d2021"
+          path: profile/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate top languages card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: "username=RevanRaoK&layout=compact&theme=gruvbox&hide_border=true&border_radius=12&langs_count=8&title_color=6B7C3A&text_color=d4be98&bg_color=1d2021"
+          path: profile/langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add profile/stats.svg profile/langs.svg
+          git commit -m "chore: update stats cards" || exit 0
+          git push
