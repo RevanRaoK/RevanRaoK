@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,8&height=180&section=header&text=Revan%20Rao%20Kokkirala&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Backend%20Engineer%20%7C%20AI%20Engineer&descAlignY=55&descSize=20" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,8&height=180&section=header&text=Kokkirala%20Revan%20Rao&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Backend%20Engineer%20%7C%20AI%20Engineer&descAlignY=55&descSize=20" />
 
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=C0782A&center=true&vCenter=true&width=700&lines=Building+Backends+that+Scale+%F0%9F%9A%80;Crafting+AI+that+Thinks+%F0%9F%A7%A0;Turning+Ideas+into+Intelligent+Systems+%E2%9A%99%EF%B8%8F;B.Tech+CSE+%7C+AIML+%40+KMIT+Hyderabad" alt="Typing SVG" />
@@ -49,17 +49,28 @@ class RevanRao:
 
 ## 🚀 Featured Projects
 
-<div align="center">
-
-<a href="https://github.com/RevanRaoK/CodeNova">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=RevanRaoK&repo=CodeNova&theme=gruvbox&hide_border=true&border_radius=12" />
-</a>
-&nbsp;&nbsp;
-<a href="https://github.com/RevanRaoK/Smart-Resume">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=RevanRaoK&repo=Smart-Resume&theme=gruvbox&hide_border=true&border_radius=12" />
-</a>
-
-</div>
+<table>
+  <tr>
+    <td width="50%">
+      <h3>🤖 <a href="https://github.com/RevanRaoK/CodeNova">CodeNova</a></h3>
+      <p>An AI-powered competitive programming assistant that analyzes problems, generates optimized solutions, and explains approaches step-by-step using LLMs.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-6B7C3A?style=flat-square&logo=python&logoColor=white" />
+        <img src="https://img.shields.io/badge/FastAPI-6B7C3A?style=flat-square&logo=fastapi&logoColor=white" />
+        <img src="https://img.shields.io/badge/LLM-6B7C3A?style=flat-square&logo=openai&logoColor=white" />
+      </p>
+    </td>
+    <td width="50%">
+      <h3>📄 <a href="https://github.com/RevanRaoK/Smart-Resume">Smart-Resume</a></h3>
+      <p>An intelligent resume builder that tailors your resume to job descriptions using NLP — generates ATS-friendly content and scores resume-job fit.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-6B7C3A?style=flat-square&logo=python&logoColor=white" />
+        <img src="https://img.shields.io/badge/NLP-6B7C3A?style=flat-square&logo=huggingface&logoColor=white" />
+        <img src="https://img.shields.io/badge/Node.js-6B7C3A?style=flat-square&logo=nodedotjs&logoColor=white" />
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
 
