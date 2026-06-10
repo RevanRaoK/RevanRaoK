@@ -119,7 +119,7 @@ class RevanRao:
 <div align="center">
 
 <!-- Streak Stats — demolab is actively maintained and reliable -->
-<a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=RevanRaoK&theme=gruvbox&border_radius=12&short_numbers=true&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak" /></a>
+<a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=RevanRaoK&theme=gruvbox&border_radius=12&short_numbers=true&date_format=M%20j%5B%2C%20Y%5D"/></a>
 
 <!-- Fallback if demolab is down — swap the src above with: -->
 <!-- https://github-readme-streak-stats-eight.vercel.app?user=RevanRaoK&theme=gruvbox&hide_border=true&border_radius=12&ring=C0602A&fire=D4782A&currStreakLabel=6B7C3A -->
